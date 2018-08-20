@@ -1,0 +1,7 @@
+name: Forge
+main: cc.zoyn.forge.Forge
+version: 1.0
+author: Zoyn
+depend: [PlaceholderAPI]
+commands:
+  dz:

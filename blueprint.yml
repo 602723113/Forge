@@ -1,0 +1,84 @@
+BluePrint:
+  # 图纸ID, 建议按顺序来
+  1:
+    name: "恶魔之盔"
+    needSkillLevel: 2
+    makeStuff:
+      1:
+        name: "&5纯度3原初之石"
+        amount: 1
+      2:
+        name: "&a二阶锻造材料"
+        amount: 10
+      3:
+        name: "&a下级装备核心"
+        amount: 3
+    # 锻造后所产出的物品ID
+    # 即在item.yml中的id
+    forgingOutput: 1
+    # 该图纸可产出的经验值
+    outputExp: 20
+    # 该图纸所需的权限
+    permission: "1.use"
+    # 以下为图纸外观配置
+    material: 403
+    data: 0
+    displayName: "&f&l[&6锻造图纸 &f&l- &6恶魔之盔&f&l]"
+    lore:
+      - "&e锻造产出: &6恶魔之盔"
+      - "&e所需锻造等级: &f&l2"
+      - "&e所需锻造材料: "
+      - " &7- &5纯度3原初之石 &f&lX1"
+      - " &7- &a二阶锻造材料 &f&lX10"
+      - " &7- &a下级装备核心 &f&lX3"
+  2:
+    name: "恶魔之甲"
+    needSkillLevel: 2
+    makeStuff:
+      1:
+        name: "&5纯度3原初之石"
+        amount: 1
+      2:
+        name: "&a二阶锻造材料"
+        amount: 15
+      3:
+        name: "&a下级装备核心"
+        amount: 3
+    # 锻造后所产出的物品
+    forgingOutput: 1
+    outputExp: 20
+    # 该图纸所需的权限
+    permission: "2.use"
+    # 以下为图纸外观配置
+    material: 403
+    data: 0
+    displayName: "&f&l[&6锻造图纸 &f&l- &6恶魔之甲&f&l]"
+    lore:
+      - "&e锻造产出: &6恶魔之甲"
+      - "&e所需锻造等级: &f&l2"
+      - "&e所需锻造材料: "
+      - " &7- &5纯度3原初之石 &f&lX1"
+      - " &7- &a二阶锻造材料 &f&lX15"
+      - " &7- &a下级装备核心 &f&lX3"
+  3:
+    name: "测试"
+    needSkillLevel: 1
+    makeStuff:
+      1:
+        name: "测试材料"
+        amount: 1
+      2:
+        name: "&a测试材料2"
+        amount: 10
+    forgingOutput: 2
+    outputExp: 20
+    permission: "3.use"
+    material: 403
+    data: 0
+    displayName: "&f&l[&6锻造图纸 &f&l- &6测试&f&l]"
+    lore:
+      - "&e锻造产出: &6测试"
+      - "&e所需锻造等级: &f&l2"
+      - "&e所需锻造材料: "
+      - " &7- 测试材料 &f&lX1"
+      - " &7- &a测试材料2 &f&lX10"
